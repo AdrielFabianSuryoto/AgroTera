@@ -1,0 +1,39 @@
+.section{
+
+    padding:100px 0;
+
+}
+
+.section--default{
+
+    background:var(--background-color);
+
+}
+
+.section--white{
+
+    background:white;
+
+}
+
+.section--light{
+
+    background:#F5FAF3;
+
+}
+
+.section--green{
+
+    background:#EEF8E9;
+
+}
+
+@media(max-width:768px){
+
+.section{
+
+padding:80px 0;
+
+}
+
+}

@@ -1,0 +1,105 @@
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:14px 30px;
+
+    border-radius:50px;
+
+    font-family:var(--heading-font);
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+        PRIMARY
+========================== */
+
+.btn--primary{
+
+    background:var(--primary-color);
+
+    color:white;
+
+}
+
+.btn--primary:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+/* ==========================
+        OUTLINE
+========================== */
+
+.btn--outline{
+
+    border:2px solid var(--primary-color);
+
+    color:var(--primary-color);
+
+    background:transparent;
+
+}
+
+.btn--outline:hover{
+
+    background:var(--primary-color);
+
+    color:white;
+
+    transform:translateY(-4px);
+
+}
+
+/* ==========================
+        ACCENT
+========================== */
+
+.btn--accent{
+
+    background:var(--accent-color);
+
+    color:white;
+
+}
+
+.btn--accent:hover{
+
+    filter:brightness(.95);
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+/* ==========================
+        RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.btn{
+
+width:100%;
+
+}
+
+}

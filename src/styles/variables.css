@@ -1,0 +1,81 @@
+:root {
+
+    /* =========================
+       COLORS
+    ========================= */
+
+    --primary-color: #4F8A3F;
+    --primary-dark: #2F5D34;
+    --primary-light: #A7D37C;
+
+    --accent-color: #C78C42;
+
+    --background-color: #F8F6F0;
+    --surface-color: #FFFFFF;
+
+    --text-color: #343434;
+    --text-light: #6F6F6F;
+
+    --border-color: #E4E4E4;
+
+    /* =========================
+       TYPOGRAPHY
+    ========================= */
+
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Inter", sans-serif;
+
+    --fs-xl: 3rem;
+    --fs-lg: 2.2rem;
+    --fs-md: 1.3rem;
+    --fs-base: 1rem;
+    --fs-sm: .9rem;
+
+    /* =========================
+       FONT WEIGHT
+    ========================= */
+
+    --fw-bold:700;
+    --fw-semibold:600;
+    --fw-medium:500;
+    --fw-regular:400;
+
+    /* =========================
+       SPACING
+    ========================= */
+
+    --space-xs:8px;
+    --space-sm:16px;
+    --space-md:24px;
+    --space-lg:40px;
+    --space-xl:70px;
+
+    /* =========================
+       BORDER
+    ========================= */
+
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:24px;
+
+    /* =========================
+       SHADOW
+    ========================= */
+
+    --shadow-sm:0 4px 10px rgba(0,0,0,.06);
+    --shadow-md:0 10px 25px rgba(0,0,0,.08);
+    --shadow-lg:0 15px 40px rgba(0,0,0,.12);
+
+    /* =========================
+       TRANSITION
+    ========================= */
+
+    --transition:.3s ease;
+
+    /* =========================
+       CONTAINER
+    ========================= */
+
+    --container-width:1200px;
+
+}

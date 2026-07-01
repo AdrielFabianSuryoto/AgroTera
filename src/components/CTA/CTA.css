@@ -1,0 +1,173 @@
+.cta{
+
+    padding:100px 0;
+
+}
+
+.cta__box{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:70px;
+
+    border-radius:32px;
+
+    background:linear-gradient(
+        135deg,
+        var(--primary-dark),
+        var(--primary-color)
+    );
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.cta__box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+
+    height:350px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    top:-170px;
+
+    left:-120px;
+
+}
+
+.cta__box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:250px;
+
+    height:250px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.06);
+
+    bottom:-120px;
+
+    right:-80px;
+
+}
+
+.cta__badge{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.15);
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta h2{
+
+    color:white;
+
+    font-size:2.7rem;
+
+    margin-bottom:25px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta p{
+
+    color:rgba(255,255,255,.9);
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta__buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* membuat tombol outline tetap putih */
+
+.cta .btn--outline{
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+.cta .btn--outline:hover{
+
+    background:white;
+
+    color:var(--primary-dark);
+
+}
+
+@media(max-width:768px){
+
+.cta__box{
+
+padding:45px 25px;
+
+}
+
+.cta h2{
+
+font-size:2rem;
+
+}
+
+.cta__buttons{
+
+flex-direction:column;
+
+}
+
+}

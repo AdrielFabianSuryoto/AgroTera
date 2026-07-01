@@ -71,7 +71,7 @@ function Footer() {
 
             <FaWhatsapp />
 
-            <span>+62 812-3456-7890</span>
+            <span>+62 882-3356-8725</span>
 
           </div>
 

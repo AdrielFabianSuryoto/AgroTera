@@ -56,7 +56,7 @@ function Contact() {
 
                   <h3>WhatsApp</h3>
 
-                  <p>+62 812 3456 7890</p>
+                  <p>+62 882 3356 8725</p>
 
                 </div>
 
